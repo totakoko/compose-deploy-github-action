@@ -2,4 +2,4 @@ name: 'Compose Deploy'
 description: 'Deploy'
 runs:
   using: 'docker'
-  image: 'totakoko/compose-deploy'
+  image: 'docker://totakoko/compose-deploy:latest'
