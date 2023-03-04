@@ -1,4 +1,4 @@
-FROM compose-deploy:latest
+FROM totakoko/compose-deploy:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
