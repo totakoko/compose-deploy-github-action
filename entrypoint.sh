@@ -16,5 +16,11 @@
 # compose-deploy deploy
 # "
 
+# fix error about dubious ownership in repository at '/github/workspace'
+id
+pwd
+ls -la
+ls -l /modules
+ls -l /github/workspace
 git config --global --add safe.directory /modules
 compose-deploy deploy
