@@ -16,7 +16,5 @@
 # compose-deploy deploy
 # "
 
-
-ls -l /
-# git config --global --add safe.directory /modules
+git config --global --add safe.directory /modules
 compose-deploy deploy
